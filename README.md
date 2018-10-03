@@ -9,6 +9,7 @@ Make sure that Wine is installed, and OpenGL is your rendering selection!
 ## Instructions:
 
 1. Install dependencies
-2. Set GOPATH to "C:\Go" by opening "wine regedit" and going to "HKEY_CURRENT_USER\Environment"
-3. Run install.sh
-4. Run the run.sh script to enjoy ROBLOX.
+2. Make a folder called "go-work" in the root of your virtual c drive 
+3. Set GOPATH to "C:\go-work" by opening "wine regedit" and going to "HKEY_CURRENT_USER\Environment"
+4. Run install.sh
+5. Run the run.sh script to enjoy ROBLOX.
