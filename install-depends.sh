@@ -8,5 +8,6 @@ wine "Git-2.19.0-32-bit.exe"
 wget https://dl.google.com/go/go1.10.4.windows-386.msi
 chmod +x "go1.10.4.windows-386.msi"
 wine start "go1.10.4.windows-386.msi"
+wine start "export GOPATH=c:\Go"
 wine go get -u github.com/anaminus/rbxlaunch
 echo Done.
