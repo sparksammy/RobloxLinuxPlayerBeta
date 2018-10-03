@@ -1,1 +1,1 @@
-wine go get -u github.com/anaminus/rbxlaunch
+wget https://raw.githubusercontent.com/Anaminus/rbxlaunch/master/launch.go
