@@ -1,4 +1,12 @@
 #!/bin/sh
+folderplayer = "PATH TO ROBLOX PLAYER BETA HERE"
+
+# Do not mess with anything below unless you know what you are doing!
+
+playerexe = "RobloxPlayerBeta.exe"
+
+pathplayer = $folderplayer$playerexe
+
 echo "ROBLOX in Linux"
 echo "Fixed by Sparksammy."
 echo "Credit to matthewbauer for making the original!"
@@ -33,4 +41,4 @@ fi
 echo 'Join Script Url:'
 echo "$joinScriptUrl"
 echo 'Running...'
-wine /usr/share/roblox/RobloxPlayerBeta.exe -play "$joinScriptUrl" &> /dev/null
+wine $pathplayer -play "$joinScriptUrl" &> /dev/null
